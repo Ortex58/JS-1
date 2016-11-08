@@ -8,7 +8,7 @@ function kvadratne(a, b, c) {
         var x1 = (-b + Math.sqrt(D)) / (2 * a);
         var x2 = (-b - Math.sqrt(D)) / (2 * a);
         document.write('x1' + '= ' + x1 + ", " + "x2" + '=' + x2);
-    }else if (D === 0) {
+    }else if (D < 0) {
         x1 = -b / (2*a);
         x2 = x1;
         document.write('x1' + '= ' + x1 + ", " + "x2" + '=' + x2);
