@@ -1,0 +1,72 @@
+.main {
+    position: relative;
+    background-color: #1d2129;
+    height:400px;
+    width:400px;
+}
+.show {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top:-50px;
+    margin-left: -50px;
+    display: block;
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    text-align: center;
+}
+.hide{
+    font-size:0;
+    display: none;
+}
+.main2 {
+    display: table;
+    background-color: black;
+    height: 400px;
+    width: 400px;
+}
+.show2 {
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.content {
+    background-color: white;
+    margin:0 auto;
+    height: 100px;
+    width: 100px;
+}
+.main3 {
+    position: relative;
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+}
+.show3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+}
+.one {
+    float: left;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+.two {
+    float: left;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+.three {
+    float: left;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+.father {
+    height: 100vh;
+    background-color: rgba(128,128,128,0.3);
+    
+}
+.father__son {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    opacity: 1;
+}
+.father__son--name {
+    text-align: center;
+    vertical-align: middle;
+}
+.hide {
+    display: none;
+}

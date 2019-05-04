@@ -1,0 +1,26 @@
+body {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #F5F6F7;
+        font-family: 'Zilla Slab', serif;
+}
+input {
+        margin-top: 50px;
+        width: 600px;
+        height: 35px;
+        border: 1px solid #C397D8;
+        border-radius: 10px;
+}
+input[type="text"] {
+        font-family: 'Zilla Slab', serif;
+        font-size: 25px;
+        font-weight: 300;
+}
+h1 {
+        cursor: pointer;
+        transition: all .2s ease;
+}
+
+.hiden {
+        display: none;
+    }
