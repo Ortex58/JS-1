@@ -17,12 +17,15 @@ input.oninput = function(){
     outCezar.innerHTML = out;
     
     //Декодування шифру Цезаря
-    console.log(outCezar.innerHTML);
+    console.log(out);
+    let outDecoded = '';
+    let codeDecoded;
+    
     for (let j = 0; j < out.length; j++) {
-        code = input_Str.charCodeAt(j);
-        code = code + offset;
-        outcharCode.innerHTML = code;
-        out += String.fromCharCode(code);
+        codeDecoded = out.charCodeAt(j);
+        codeDecoded = codeDecoded - offset;
+        outDecoded += String.fromCharCode(codeDecoded);
+        
     }
-    outDecodCezar.innerHTML = out;
+    outDecodCezar.innerHTML = outDecoded;
 };
